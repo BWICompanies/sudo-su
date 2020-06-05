@@ -6,7 +6,7 @@
         <i class="fa fa-user-secret" aria-hidden="true"></i>
     </div>
     
-    <div class="sudoSu__interface {{ $hasSudoed ? 'sudoSu__interface--hasSudoed' : '' }} hidden" id="sudosu-js-interface">
+    <div class="sudoSu__interface--hasSudoed {{ $hasSudoed ? 'sudoSu__interface--hasSudoed' : '' }} hidden" id="sudosu-js-interface">
         @if ($hasSudoed)
             <div class="sudoSu__infoLine">
                 You are using account: <span>{{ $currentUser->name }}</span>
