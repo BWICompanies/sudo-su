@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BWICompanies\\SudoSu\\": "src/"
+            "VIACreative\\SudoSu\\": "src/"
         }
     }
 }
